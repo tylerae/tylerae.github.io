@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(162, 188, 223);
+}
+h1 {
+    background-color: rosybrown;
+    padding:0 150px 50px 10px;
+    border: 10px solid black;
+    margin: 50px;
+}
+
+.latin{
+    font-size: 45px;
+    color: seagreen;
+    text-align: center;
+    padding: 30px;
+    max-width: 500px;
+    line-height: 1.35em;
+}
+#fancy {
+    font-family: 'Ephesis', cursive;
+    font-size: 100px;
+}
