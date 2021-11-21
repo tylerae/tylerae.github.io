@@ -214,6 +214,26 @@ nav a:hover{
     color:rgb(215, 238, 215);
     padding: 5px;
 }
+#sub-grid {
+    text-align: center;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 50px;
+    
+}
+#content-image {
+    border: 5px rgb(0, 0, 0);
+}
+#main-text-body{
+    grid-column: 2/ span 3;
+}
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
