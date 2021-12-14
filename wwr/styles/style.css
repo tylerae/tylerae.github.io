@@ -3,10 +3,8 @@
 header{
     background-color: #4c76ad;
     font-family: "Brush Script m7, Verdana, sans-serif";
-    padding: 3.5rem 1rem 1.5rem;
     align-items: center;
     width: auto;
-    margin: 20px;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -14,7 +12,9 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-
+.logo{
+    width: 80px;
+}
 #logo{
     width: 80px;
     position: relative;
@@ -75,6 +75,7 @@ nav {
 #home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    
 }
 .card-img, .mountains {
     width: 100%;
@@ -197,7 +198,6 @@ footer .social img{
 #head{
     display: inline;
     margin-left: 10px;
-    height: 10px;
     text-decoration: #000000;
     font-family: "Brush Script m7, Verdana, sans-serif";
 }
