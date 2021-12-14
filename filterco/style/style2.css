@@ -27,10 +27,12 @@ header {
 h1{
     font-size: 50px;
     font-style: italic;
+    font-family: "Brush Script m7, Verdana, sans-serif";
 }
 #msg1{
     grid-column: 1;
     grid-row: 2;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 #img2{
     grid-row: 2;
@@ -39,6 +41,7 @@ h1{
 #msg2{
     grid-column: 1;
     grid-row: 3;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 .img1{
     grid-row: 3;
